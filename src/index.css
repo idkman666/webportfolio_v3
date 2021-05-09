@@ -5,9 +5,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(140,139,140);
+background: linear-gradient(90deg, rgba(140,139,140,1) 0%, rgba(64,61,66,1) 49%, rgba(31,31,33,1) 100%, rgba(72,53,82,1) 100%, rgba(189,179,199,1) 100%, rgba(47,20,55,1) 100%, rgba(229,229,241,1) 100%, rgba(17,15,48,1) 100%);
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.footer{
+  width: 100vw;
+  background-color: black;
+  text-align: center;
+}
+html { scroll-behavior: smooth; } 
