@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import { JumpThrough, AMZLMobileApp, AMZLWebApp, TellMore } from "./finishedProjects";
+import { JumpThrough, AMZLMobileApp, AMZLWebApp, TellMore, PomeTimerApp } from "./finishedProjects";
 import { codeDroppOrs, codeShareSounds } from "./underDevProjects";
 import { aboutMe, contact, resume } from "./aboutme";
 import tellmore_preview from "./assets/tellmore_preview.PNG";
@@ -12,6 +12,8 @@ import amzl_gif from "./assets/amzl_gif.gif";
 import amzl_mobile_preview from "./assets/amzl_mobile_preview.jpg";
 import amzl_mobile_gif from "./assets/amzl_mobile_gif.gif";
 import me from './assets/me__.jpg'
+import pome_timer_gif from "./assets/pome_timer_demo.gif";
+import pome_timer_preview from "./assets/pome_timer_app.png";
 
 
 function App() {
@@ -22,9 +24,10 @@ function App() {
   const [tellMoreImg, setTellMoreImg] = useState(tellmore_preview)
   const [amzlWebImg, setAmzlWebImg] = useState(amzl_preview)
   const [amzlMobileImg, setAmzlMobileImg] = useState(amzl_mobile_preview)
+  const [pomeTimerImg, setPomeTimerImg] = useState(pome_timer_preview)
 
   const [azmlMobileGit, setAmzlMobileGit] = useState("https://github.com/idkman666/flutter_amzl_public")
-  const [amzlWebGit, setAmzlWebGit] = useState("https://github.com/idkman666/amzl_proto_web")
+  const [amzlWebGit, setAmzlWebGit] = useState("https://github.com/idkman666/amzl_proto_web") 
 
 
   const Description = (props) => {
@@ -82,6 +85,8 @@ function App() {
       case "amzlmobile":
         setAmzlMobileImg(amzl_mobile_gif);
         break;
+      case "pomeTimerApp":
+        setPomeTimerImg(pome_timer_gif);
     }
   }
 
@@ -102,6 +107,7 @@ function App() {
   const FinishedProject = () => {
     return (
       <div className="section">
+        <ProjectComponent comp="pomeTimerApp" img={pomeTimerImg} link={PomeTimerApp.link} des={PomeTimerApp.description} prjName={PomeTimerApp.header} tech={PomeTimerApp.tech} data={"Play Store"} sourceLink={PomeTimerApp.link}/>
         <ProjectComponent comp="jmpthru" img={jumpThroughImg}
           des={JumpThrough.description} prjName={JumpThrough.header}
           tech={JumpThrough.tech} link={JumpThrough.link} data={"Play Store"} sourceLink={JumpThrough.link} />

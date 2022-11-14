@@ -22,7 +22,7 @@ var TellMoreDes =<section><p>Simple 2 page concept web application made using Re
 </section> 
 var TellMoreTech = ["ReactJs", "CSS", "ReactJs Charts", "C#", "Asp.Net Core", "Azure Web Service", "Azure Text Analytics", "Google Captcha", "Azure SQL Database", "SQL"]
 var TellMoreHeader = "Tell More Web App"
-var TellMoreLink="https://tellmore.azurewebsites.net/stats"
+var TellMoreLink="https://tellmore.azurewebsites.net/"
 //--------------
 
 //amzl web app
@@ -33,7 +33,7 @@ var AMZLDes = <p>This application is made using ReactJs and Asp.Net core to help
 </p>
 var AMZLWebTech =["ReactJs", "Firebase", "JavaScript","Asp.Net Core", "C#", "Realtime", "CSS", "Bootstrap", "Azure Web Service"]
 var AMZLWebHeader="AMZL Web App"
-var AMZLWebLink = "https://drive.google.com/file/d/1ezgbGN7PHn76VDRewEhs0zEDYodsW15o/view"
+var AMZLWebLink = "https://github.com/idkman666/amzl_proto_web"
 //---------------
 
 //amzl mobile app
@@ -43,8 +43,16 @@ var AMZLMobileDes = <p>This is a mobile application built using Flutter for andr
     </p>
 var AMZLMobileTech = ["Flutter", "Dart", "Firebase", "Realtime", "Android", "Firebase Auth"]
 var AMZLMobileHeader = "AMZL Mobile App"
-var AMZLMobileLink = "https://drive.google.com/file/d/1ezgbGN7PHn76VDRewEhs0zEDYodsW15o/view"
+var AMZLMobileLink = "https://github.com/idkman666/flutter_amzl_public"
 //-------------
+
+//Pome: Timer App
+var PomeTimerAppDes = <p>Made with Flutter, this is a timer applicaiton that makes use of sqlite to store data locally. Some Rive files have also been integrated to make animated UI elements.
+    This app also makes use of native code implementation to control mobile features. </p>
+var PomeTimerAppTech = ["Flutter" , "Dart"]
+var PomeTimerAppHeader = "Pome: Timer App"
+var PomeTimerAppLink = "https://play.google.com/store/apps/details?id=com.paperleaf.pomeapp"
+
 
 class Project{
 
@@ -61,4 +69,5 @@ export const AMZLMobileApp = new Project(AMZLMobileDes,AMZLMobileTech, AMZLMobil
 export const JumpThrough = new Project(JumpThroughDes, JumpThroughTech, JumpThroughHeader, JumpThroughLink);
 export const TellMore = new Project(TellMoreDes, TellMoreTech, TellMoreHeader, TellMoreLink);
 export const AMZLWebApp = new Project(AMZLDes, AMZLWebTech, AMZLWebHeader, AMZLWebLink);
+export const PomeTimerApp = new Project(PomeTimerAppDes, PomeTimerAppTech, PomeTimerAppHeader, PomeTimerAppLink);
 
