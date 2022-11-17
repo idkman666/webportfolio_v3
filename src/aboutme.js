@@ -26,7 +26,7 @@ export var contact = <section className="contact-section">
 </section>
 
 
-var seeOnlineLink = 'https://drive.google.com/file/d/1hBghI3B_Uc9fdY_eV7V2JnAJjRHHfO_v/view?usp=share_link'
+var seeOnlineLink = 'https://drive.google.com/file/d/1-TSmG9H2xFEvJXhnfE6oZLo_BUp8sETF/view?usp=sharing'
 function handleResumeClick(params)
 {
     if(params === "seeResume")
