@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/webportfolio_v3/static/css/main.902d41a3.chunk.css",
-    "main.js": "/webportfolio_v3/static/js/main.bedd99ea.chunk.js",
-    "main.js.map": "/webportfolio_v3/static/js/main.bedd99ea.chunk.js.map",
+    "main.js": "/webportfolio_v3/static/js/main.be109361.chunk.js",
+    "main.js.map": "/webportfolio_v3/static/js/main.be109361.chunk.js.map",
     "runtime-main.js": "/webportfolio_v3/static/js/runtime-main.bfcad213.js",
     "runtime-main.js.map": "/webportfolio_v3/static/js/runtime-main.bfcad213.js.map",
     "static/js/2.8c10f6f2.chunk.js": "/webportfolio_v3/static/js/2.8c10f6f2.chunk.js",
@@ -12,7 +12,7 @@
     "index.html": "/webportfolio_v3/index.html",
     "static/css/main.902d41a3.chunk.css.map": "/webportfolio_v3/static/css/main.902d41a3.chunk.css.map",
     "static/js/2.8c10f6f2.chunk.js.LICENSE.txt": "/webportfolio_v3/static/js/2.8c10f6f2.chunk.js.LICENSE.txt",
-    "static/media/Resume_ParuK.a8c7fdfc.pdf": "/webportfolio_v3/static/media/Resume_ParuK.a8c7fdfc.pdf",
+    "static/media/Resume_ParuK.68b40be0.pdf": "/webportfolio_v3/static/media/Resume_ParuK.68b40be0.pdf",
     "static/media/amzl_gif.484515b7.gif": "/webportfolio_v3/static/media/amzl_gif.484515b7.gif",
     "static/media/amzl_mobile_gif.08242f37.gif": "/webportfolio_v3/static/media/amzl_mobile_gif.08242f37.gif",
     "static/media/amzl_mobile_preview.37e82828.jpg": "/webportfolio_v3/static/media/amzl_mobile_preview.37e82828.jpg",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.bfcad213.js",
     "static/js/2.8c10f6f2.chunk.js",
     "static/css/main.902d41a3.chunk.css",
-    "static/js/main.bedd99ea.chunk.js"
+    "static/js/main.be109361.chunk.js"
   ]
 }
